@@ -1,0 +1,13 @@
+OpenJDK 64-Bit Server VM (25.212-b04) for linux-amd64 JRE (1.8.0_212-b04), built on Apr 17 2019 16:44:43 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-36)
+Memory: 4k page, physical 2046844k(777544k free), swap 1048572k(423504k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=327155712 -XX:GCLogFileSize=104857600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/nacos/logs/java_heapdump.hprof -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:MaxMetaspaceSize=335544320 -XX:MaxNewSize=1073741824 -XX:MetaspaceSize=134217728 -XX:NewSize=1073741824 -XX:NumberOfGCLogFiles=10 -XX:-OmitStackTraceInFastThrow -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:-UseLargePages -XX:+UseParallelGC 
+2019-09-23T14:12:49.090+0800: 13.462: [GC (Allocation Failure) [PSYoungGen: 786432K->11301K(917504K)] 786432K->11397K(1966080K), 0.0621065 secs] [Times: user=0.07 sys=0.01, real=0.06 secs] 
+Heap
+ PSYoungGen      total 917504K, used 758812K [0x00000000c0000000, 0x0000000100000000, 0x0000000100000000)
+  eden space 786432K, 95% used [0x00000000c0000000,0x00000000ed9fdf20,0x00000000f0000000)
+  from space 131072K, 8% used [0x00000000f0000000,0x00000000f0b094d0,0x00000000f8000000)
+  to   space 131072K, 0% used [0x00000000f8000000,0x00000000f8000000,0x0000000100000000)
+ ParOldGen       total 1048576K, used 96K [0x0000000080000000, 0x00000000c0000000, 0x00000000c0000000)
+  object space 1048576K, 0% used [0x0000000080000000,0x0000000080018010,0x00000000c0000000)
+ Metaspace       used 42437K, capacity 44314K, committed 44416K, reserved 1087488K
+  class space    used 5084K, capacity 5479K, committed 5504K, reserved 1048576K

@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  config:
+    default:
+      # 连接超时时间
+      connect-timeout: 5000
+      # 读超时时间设置
+      read-timeout: 5000
+
+  # 求和响应开启GZIP压缩
+  compression:
+    request:
+      # 配置请求支持GZIP压缩，默认为false
+      enable: true
+      #配置压缩支持的Mime Type
+      mime-types: text/xml, application/xml, application/json
+      # 配置压缩数据大小的上下限
+      min-request-size: 2048
+    reponse:
+      #配置响应支持GZIP压缩，默认为false
+      enable: true

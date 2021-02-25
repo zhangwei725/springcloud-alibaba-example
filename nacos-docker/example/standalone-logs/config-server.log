@@ -1,0 +1,76 @@
+2019-09-23 02:31:29,817 INFO notifyConnectTimeout:200
+
+2019-09-23 02:31:29,819 INFO notifySocketTimeout:8000
+
+2019-09-23 02:31:29,820 INFO isHealthCheck:true
+
+2019-09-23 02:31:29,820 INFO maxHealthCheckFailCount:12
+
+2019-09-23 02:31:29,821 INFO maxContent:10485760
+
+2019-09-23 02:31:29,823 INFO spring.datasource.platform:""
+
+2019-09-23 02:31:32,105 INFO ServerListService address-server port:8848
+
+2019-09-23 02:31:32,107 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2019-09-23 02:31:32,111 WARN [serverlist] updated to [7f231e1db5cc]
+
+2019-09-23 02:31:32,277 WARN DumpService start
+
+2019-09-23 02:31:32,283 INFO start clear all config-info.
+
+2019-09-23 02:31:32,292 WARN clear all config-info failed.
+
+2019-09-23 02:31:32,294 WARN clear all config-info-tenant failed.
+
+2019-09-23 02:31:32,402 INFO start clear all config-info-beta.
+
+2019-09-23 02:31:32,403 WARN clear all config-info-beta failed.
+
+2019-09-23 02:31:32,404 WARN clear all config-info-beta-tenant failed.
+
+2019-09-23 02:31:32,419 INFO start clear all config-info-tag.
+
+2019-09-23 02:31:32,420 WARN clear all config-info-tag failed.
+
+2019-09-23 02:31:32,420 WARN clear all config-info-tag-tenant failed.
+
+2019-09-23 02:43:51,779 INFO notifyConnectTimeout:200
+
+2019-09-23 02:43:51,780 INFO notifySocketTimeout:8000
+
+2019-09-23 02:43:51,781 INFO isHealthCheck:true
+
+2019-09-23 02:43:51,781 INFO maxHealthCheckFailCount:12
+
+2019-09-23 02:43:51,783 INFO maxContent:10485760
+
+2019-09-23 02:43:51,783 INFO spring.datasource.platform:""
+
+2019-09-23 02:43:53,468 INFO ServerListService address-server port:8848
+
+2019-09-23 02:43:53,469 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2019-09-23 02:43:53,472 WARN [serverlist] updated to [nacos-server-register]
+
+2019-09-23 02:43:53,587 WARN DumpService start
+
+2019-09-23 02:43:53,591 INFO start clear all config-info.
+
+2019-09-23 02:43:53,598 WARN clear all config-info failed.
+
+2019-09-23 02:43:53,599 WARN clear all config-info-tenant failed.
+
+2019-09-23 02:43:53,681 INFO start clear all config-info-beta.
+
+2019-09-23 02:43:53,682 WARN clear all config-info-beta failed.
+
+2019-09-23 02:43:53,683 WARN clear all config-info-beta-tenant failed.
+
+2019-09-23 02:43:53,697 INFO start clear all config-info-tag.
+
+2019-09-23 02:43:53,698 WARN clear all config-info-tag failed.
+
+2019-09-23 02:43:53,698 WARN clear all config-info-tag-tenant failed.
+

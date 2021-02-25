@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  sentinel-dashboard:
+    build:
+      context: ./
+    container_name: sentinel-dashboard
+    restart: on-failure
+    ports:
+      - "8718:8080"
+    environment:
+      - JAVA_OPTS=-Dserver.port=8080 -Dcsp.sentinel.dashboard.server=8080 -Dproject.name=sentinel-dashboard
+    volumes:
+      - /root/logs:/root/logs

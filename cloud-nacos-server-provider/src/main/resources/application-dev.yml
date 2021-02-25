@@ -1,0 +1,14 @@
+server:
+  port: 8086
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.23.190.71:8848
+        # 注册到指定的命名空间,默认是public
+        namespace: c5fa1b3a-6b55-4169-9bd4-9888aef5b9bf
+        cluster-name: "Beijing"
+        metadata:
+          instance: test-metadata
+          version: v1

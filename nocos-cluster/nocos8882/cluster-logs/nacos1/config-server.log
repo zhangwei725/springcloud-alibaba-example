@@ -1,0 +1,12 @@
+2019-09-23 03:05:56,211 INFO notifyConnectTimeout:200
+
+2019-09-23 03:05:56,229 INFO notifySocketTimeout:8000
+
+2019-09-23 03:05:56,229 INFO isHealthCheck:true
+
+2019-09-23 03:05:56,231 INFO maxHealthCheckFailCount:12
+
+2019-09-23 03:05:56,233 INFO maxContent:10485760
+
+2019-09-23 03:05:56,237 INFO spring.datasource.platform:""
+

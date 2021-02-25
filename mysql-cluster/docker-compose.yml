@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db-mysql-master:
+    image: mysql:5.7.22
+    restart: on-failure
+    container_name: db-mysql-master-container
+    command:
+      --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db_nacos
+    ports:
+      - 3306:3306

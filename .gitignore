@@ -1,0 +1,6 @@
+# Project exclude paths
+/boot-shiro-example/shiro-cache-example/target/
+/boot-shiro-example/shiro-java-jwt-boot-starter/target/
+/boot-shiro-example/shiro-jwt-boot-starter/target/
+/cloud-alibaba-base/cloud-alibaba-oss/target/
+/cloud-nacos-ribbon/ribbon-demo/target/

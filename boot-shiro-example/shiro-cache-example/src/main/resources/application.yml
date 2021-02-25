@@ -1,0 +1,6 @@
+shiro-redis:
+  cache-manager:
+    key-prefix: "shiro:cache:"
+  redis-manager:
+    host: 114.215.196.38:6379
+    password: ~

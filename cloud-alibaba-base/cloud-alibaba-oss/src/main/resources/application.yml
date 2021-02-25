@@ -1,0 +1,9 @@
+oss:
+  endpoint: oss-cn-shenzhen.aliyuncs.com
+  access-key-id: LTAIp5WDfaIUi7Ag # 填写刚刚生成的AccessKey ID
+  access-secret: u1DO0xLxcnBYPdzMH5AeUhHTyOAcz7  # 填写生成的Access Secret
+  # bucket名称
+  bucket-name: cloud-alibaba-oss
+  # bucket下文件夹的路径
+  file-host: images
+  callback: http://localhost:8080/aliyun/oss/callback # 文件上传成功后的回调地址

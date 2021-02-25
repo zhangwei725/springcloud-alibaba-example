@@ -1,0 +1,7 @@
+rocketmq:
+  # 支持配置多个name-server地址，采用;分隔即可
+  name-server: 192.168.0.105:9876
+  producer:
+    group: hello-rocketmq
+
+base-topic: base-topic

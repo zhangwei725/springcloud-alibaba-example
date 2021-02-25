@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        cluster-name: nacos-producer-server
+        server-addr: 112.74.42.138:8848
+ribbon:
+  okhttp:
+    enabled: true
+  #开启饥饿加载
+  eager-load:
+    enabled: false

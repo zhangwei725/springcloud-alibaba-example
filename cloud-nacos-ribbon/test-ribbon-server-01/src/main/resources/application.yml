@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test-ribbon-server-01
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.23.190.71:8848
+
+server:
+  port: 8001

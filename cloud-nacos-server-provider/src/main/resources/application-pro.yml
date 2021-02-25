@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: nacos-provider-server
+  cloud:
+    nacos:
+      discovery:
+        cluster-name: nacos-producer
+        server-addr: nacos-server-register:8848
+

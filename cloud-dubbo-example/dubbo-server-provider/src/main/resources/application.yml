@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: dubbo-provider
+  main:
+    #  配置中约定的尽量一个bean使用一个name，随着引入的第三方库越来越多，就有可能就会出现名字相同的bean
+    # 允许同名bean覆盖
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
+dubbo:
+  # 暴露接口的包 如果有多个使用,隔开
+  scan:
+    base-packages: com.cloudalibaba.dubbo.provider.service
+  # Dubbo服务暴露的协议配置，其中子属性name为协议名称，
+  protocol:
+    #Dubbo协议 常用
+    #Hessian协议
+    #HTTP协议
+    #RMI协议
+    #WebService协议
+    #Thrift协议
+    #Memcached协议
+    #Redis协议
+    name: dubbo
+    # port为协议端口（-1 表示自增端口，从 20880 开始）
+    port: -1
+  # 注册中心 可以使用nacos zookeeper
+  # Dubbo 服务注册中心配置，其中子属性address
+  registry:
+    address:  nacos://112.74.42.138:8848

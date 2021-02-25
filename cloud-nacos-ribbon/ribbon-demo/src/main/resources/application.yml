@@ -1,0 +1,19 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: ribbon-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.23.190.71:8848
+
+# ClientName.ribbon.NFLoadBalancerRuleClassName= 负载均衡类
+#
+test-ribbon-server-02:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+ribbon:
+  okhttp:
+    enabled: true

@@ -1,0 +1,12 @@
+jwt:
+  token: ""
+  hmac-key: ""
+  jks: ""
+  jks-password: ""
+  cert-password: ""
+  issuer: ""
+  subject: ""
+  audience: ""
+  not-before-at: ""
+  expired-in: ""
+  expired-at: ""

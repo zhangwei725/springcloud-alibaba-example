@@ -1,0 +1,32 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  redis:
+    #redis机器ip
+    host: 119.23.190.71
+    #redis端口
+    port: 6379
+    #redis密码
+    database: 15
+    password:
+    #redis超时时间（毫秒），如果不设置，取默认值2000
+    timeout: 10000
+    jedis:
+      pool:
+        # 连接池最大连接数
+        max-active: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: 1d
+        # 连接池中的最小空闲连接
+        min-idle: 0
+        # 连接池中的最大空闲连接
+        max-idle: 8
+  cache:
+    cache-names: sb-redis-cache
+    redis:
+      cache-null-values: true
+      time-to-live: 1000ms
+mybatis:
+  configuration:
+    cache-enabled: true
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl

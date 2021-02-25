@@ -1,0 +1,21 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /api/v1
+
+spring:
+  application:
+    name: nacos-config-provider
+  profiles:
+    active: pro
+  cloud:
+    nacos:
+      config:
+        server-addr: 112.74.42.138:8848
+#        namespace: public
+        # 指定配置群组 --如果是public命名空间 则可以省略群组配置
+#        group: DEFAULT_GROUP
+        #文件名 -- 如果没有配置则默认为 ${spring.application.name}
+#        prefix: ${spring.application.name}
+        # 如果没有配置则默认为 ${spring.application.name}
+        file-extension: yml

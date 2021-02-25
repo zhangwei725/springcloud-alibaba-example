@@ -1,0 +1,180 @@
+2019-09-23 03:04:06,918 INFO notifyConnectTimeout:200
+
+2019-09-23 03:04:06,920 INFO notifySocketTimeout:8000
+
+2019-09-23 03:04:06,921 INFO isHealthCheck:true
+
+2019-09-23 03:04:06,921 INFO maxHealthCheckFailCount:12
+
+2019-09-23 03:04:06,922 INFO maxContent:10485760
+
+2019-09-23 03:04:06,923 INFO spring.datasource.platform:""
+
+2019-09-23 14:08:52,512 INFO notifyConnectTimeout:200
+
+2019-09-23 14:08:52,514 INFO notifySocketTimeout:8000
+
+2019-09-23 14:08:52,515 INFO isHealthCheck:true
+
+2019-09-23 14:08:52,515 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:08:52,521 INFO maxContent:10485760
+
+2019-09-23 14:08:52,522 INFO spring.datasource.platform:""
+
+2019-09-23 14:09:06,943 INFO notifyConnectTimeout:200
+
+2019-09-23 14:09:06,945 INFO notifySocketTimeout:8000
+
+2019-09-23 14:09:06,945 INFO isHealthCheck:true
+
+2019-09-23 14:09:06,946 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:09:06,947 INFO maxContent:10485760
+
+2019-09-23 14:09:06,948 INFO spring.datasource.platform:""
+
+2019-09-23 14:09:22,735 INFO notifyConnectTimeout:200
+
+2019-09-23 14:09:22,737 INFO notifySocketTimeout:8000
+
+2019-09-23 14:09:22,738 INFO isHealthCheck:true
+
+2019-09-23 14:09:22,738 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:09:22,739 INFO maxContent:10485760
+
+2019-09-23 14:09:22,740 INFO spring.datasource.platform:""
+
+2019-09-23 14:09:38,427 INFO notifyConnectTimeout:200
+
+2019-09-23 14:09:38,430 INFO notifySocketTimeout:8000
+
+2019-09-23 14:09:38,430 INFO isHealthCheck:true
+
+2019-09-23 14:09:38,431 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:09:38,432 INFO maxContent:10485760
+
+2019-09-23 14:09:38,433 INFO spring.datasource.platform:""
+
+2019-09-23 14:09:53,823 INFO notifyConnectTimeout:200
+
+2019-09-23 14:09:53,825 INFO notifySocketTimeout:8000
+
+2019-09-23 14:09:53,826 INFO isHealthCheck:true
+
+2019-09-23 14:09:53,826 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:09:53,835 INFO maxContent:10485760
+
+2019-09-23 14:09:53,836 INFO spring.datasource.platform:""
+
+2019-09-23 14:10:09,789 INFO notifyConnectTimeout:200
+
+2019-09-23 14:10:09,791 INFO notifySocketTimeout:8000
+
+2019-09-23 14:10:09,792 INFO isHealthCheck:true
+
+2019-09-23 14:10:09,792 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:10:09,793 INFO maxContent:10485760
+
+2019-09-23 14:10:09,795 INFO spring.datasource.platform:""
+
+2019-09-23 14:10:26,616 INFO notifyConnectTimeout:200
+
+2019-09-23 14:10:26,618 INFO notifySocketTimeout:8000
+
+2019-09-23 14:10:26,618 INFO isHealthCheck:true
+
+2019-09-23 14:10:26,619 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:10:26,620 INFO maxContent:10485760
+
+2019-09-23 14:10:26,621 INFO spring.datasource.platform:""
+
+2019-09-23 14:10:46,652 INFO notifyConnectTimeout:200
+
+2019-09-23 14:10:46,654 INFO notifySocketTimeout:8000
+
+2019-09-23 14:10:46,655 INFO isHealthCheck:true
+
+2019-09-23 14:10:46,656 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:10:46,657 INFO maxContent:10485760
+
+2019-09-23 14:10:46,658 INFO spring.datasource.platform:""
+
+2019-09-23 14:11:08,923 INFO notifyConnectTimeout:200
+
+2019-09-23 14:11:08,925 INFO notifySocketTimeout:8000
+
+2019-09-23 14:11:08,926 INFO isHealthCheck:true
+
+2019-09-23 14:11:08,927 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:11:08,928 INFO maxContent:10485760
+
+2019-09-23 14:11:08,930 INFO spring.datasource.platform:""
+
+2019-09-23 14:11:29,582 INFO notifyConnectTimeout:200
+
+2019-09-23 14:11:29,588 INFO notifySocketTimeout:8000
+
+2019-09-23 14:11:29,588 INFO isHealthCheck:true
+
+2019-09-23 14:11:29,589 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:11:29,591 INFO maxContent:10485760
+
+2019-09-23 14:11:29,592 INFO spring.datasource.platform:""
+
+2019-09-23 14:11:48,978 INFO notifyConnectTimeout:200
+
+2019-09-23 14:11:48,980 INFO notifySocketTimeout:8000
+
+2019-09-23 14:11:48,980 INFO isHealthCheck:true
+
+2019-09-23 14:11:48,981 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:11:48,982 INFO maxContent:10485760
+
+2019-09-23 14:11:48,984 INFO spring.datasource.platform:""
+
+2019-09-23 14:12:10,062 INFO notifyConnectTimeout:200
+
+2019-09-23 14:12:10,064 INFO notifySocketTimeout:8000
+
+2019-09-23 14:12:10,065 INFO isHealthCheck:true
+
+2019-09-23 14:12:10,066 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:12:10,067 INFO maxContent:10485760
+
+2019-09-23 14:12:10,069 INFO spring.datasource.platform:""
+
+2019-09-23 14:12:40,650 INFO notifyConnectTimeout:200
+
+2019-09-23 14:12:40,664 INFO notifySocketTimeout:8000
+
+2019-09-23 14:12:40,673 INFO isHealthCheck:true
+
+2019-09-23 14:12:40,680 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:12:40,688 INFO maxContent:10485760
+
+2019-09-23 14:12:40,695 INFO spring.datasource.platform:""
+
+2019-09-23 14:13:05,510 INFO notifyConnectTimeout:200
+
+2019-09-23 14:13:05,512 INFO notifySocketTimeout:8000
+
+2019-09-23 14:13:05,513 INFO isHealthCheck:true
+
+2019-09-23 14:13:05,513 INFO maxHealthCheckFailCount:12
+
+2019-09-23 14:13:05,514 INFO maxContent:10485760
+
+2019-09-23 14:13:05,516 INFO spring.datasource.platform:""
+
